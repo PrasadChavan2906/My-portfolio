@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,200&display=swap');
 :root {
-    --primary-color: #f97316
+    --primary-color: #f97316;
+    --off-white: #e2e8f0;
+    --dark-grey: #64748b;
+
 }
 body {
     font-family: 'Nunito Sans', sans-serif;
@@ -61,4 +64,29 @@ padding: 0rem 1rem;
 }
 .navigation .link-active {
     font-weight: bold;
+}
+.Hero {
+padding: 2rem;
+}
+.Hero .Hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.Hero .Hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-grey);
+    text-align: center;
+}
+.Hero .Hero-heading .Heading-inverted {
+    color: var(--primary-color);
+}
+.section {
+padding: 2rem;
+}
+.section h1 {
+text-align: center;
+}
+.ow {
+    background-color: var(--off-white);
 }
