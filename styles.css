@@ -7,11 +7,15 @@
 }
 body {
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
 }
 hr {
     margin : 3rem 0rem;
 }
 
+margin-md {
+    margin: 2rem;
+}
 .container {   
 padding: 0rem 1rem;
 }
@@ -21,8 +25,11 @@ padding: 0rem 1rem;
 }
  
 .link {
-   text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .link-primary {
     background-color: var(--primary-color);
@@ -67,26 +74,55 @@ padding: 0rem 1rem;
 }
 .Hero {
 padding: 2rem;
+padding-top: 5rem;
 }
+
 .Hero .Hero-img {
     max-width: 350px;
-    display: block;
+   display: block;
     margin: auto;
+
 }
 .Hero .Hero-heading {
     padding-top: 1rem;
     color: var(--dark-grey);
     text-align: center;
+
 }
 .Hero .Hero-heading .Heading-inverted {
     color: var(--primary-color);
 }
+
 .section {
 padding: 2rem;
 }
+
 .section h1 {
 text-align: center;
 }
+
 .ow {
     background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+    
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
